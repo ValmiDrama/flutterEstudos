@@ -1,3 +1,8 @@
+<div align="center">
+<h2>State Progress Indicator</h2>
+<img src="https://user-images.githubusercontent.com/95919292/163577764-24ef8907-5ef1-4098-8e01-1f667bdf7707.gif" width="300px" />
+</div>
+
 #BOOK OF STUDIES :book::desktop_computer:
 
 - Hello and welcome to my study book. :wave:
@@ -22,7 +27,8 @@
 </div>
 
 <div align="center">
-<h2>State Progress Indicator</h2>
-<img src="https://user-images.githubusercontent.com/95919292/163577764-24ef8907-5ef1-4098-8e01-1f667bdf7707.gif" width="300px" />
+<h2>ValmiDrama CEP API</h2>
+<img src="https://user-images.githubusercontent.com/95919292/163687913-6f592d58-f496-4cb3-a174-b329a33b542d.png" width="600px"; float:right; />
 </div>
+
 
