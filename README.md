@@ -28,7 +28,7 @@
 
 <div align="center">
 <h2>ValmiDrama CEP API</h2>
-<img src="https://user-images.githubusercontent.com/95919292/163687913-6f592d58-f496-4cb3-a174-b329a33b542d.png" width="600px"; float:right; />
+<img src="https://user-images.githubusercontent.com/95919292/163687913-6f592d58-f496-4cb3-a174-b329a33b542d.png" width="900px"; float:right; />
 </div>
 
 
