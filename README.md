@@ -49,7 +49,10 @@
 
 #  Leve 2 - LOADINS...
 
-Html e CSS
-JavaScript
-MySql
-SQL
+- Html e CSS
+- JavaScript
+- Wordpress
+- Elemento
+- MySql
+- PHP
+- SQL
