@@ -7,7 +7,7 @@
 
 - Hello and welcome to my study book. :wave:
 
-#  Leve 1 🆗
+#  Leve 1 ☑️
 
 - Lógica de programação.
 - Habilidades SPECIAIS! HAHAHA.
@@ -47,7 +47,7 @@
 </div>
 
 
-#  Leve 2 - LOADINS...
+#  Leve 2 - LOADING... 🧠
 
 - Html e CSS
 - JavaScript
