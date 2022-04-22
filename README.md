@@ -1,11 +1,20 @@
 <div align="center">
-<h2>State Progress Indicator</h2>
+<h1>State Progress Indicator</h1>
 <img src="https://user-images.githubusercontent.com/95919292/163577764-24ef8907-5ef1-4098-8e01-1f667bdf7707.gif" width="300px" />
 </div>
 
-#BOOK OF STUDIES :book::desktop_computer:
+# BOOK OF STUDIES :book::desktop_computer:
 
 - Hello and welcome to my study book. :wave:
+
+#  Leve 1 🆗
+
+- Lógica de programação.
+- Habilidades SPECIAIS! HAHAHA.
+- Inglês Intermediário.
+- Conseguir fazer um CRUD que envolva uma API.
+- Conhecer git o suficiente para commitar em um projeto.
+- xperiência Provider.
 
 #BOOK OF STUDIES :book::desktop_computer:
 
@@ -38,4 +47,9 @@
 </div>
 
 
+#  Leve 2 - LOADINS...
 
+Html e CSS
+JavaScript
+MySql
+SQL
