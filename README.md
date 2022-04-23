@@ -14,7 +14,7 @@
 - Inglês Intermediário.
 - Conseguir fazer um CRUD que envolva uma API.
 - Conhecer git o suficiente para commitar em um projeto.
-- xperiência Provider.
+- experiência Provider.
 
 #BOOK OF STUDIES :book::desktop_computer:
 
@@ -47,12 +47,12 @@
 </div>
 
 
-#  Leve 2 - LOADING... 🧠
-
-- Html e CSS
-- JavaScript
-- Wordpress
-- Elemento
-- MySql
-- PHP
-- SQL
+#  Leve 2  - LOADING... 🧠
+Basic:
+ - Html e CSS
+ - JavaScript
+ - Wordpress
+ - Elemento
+ - MySql
+ - PHP
+ - SQL
