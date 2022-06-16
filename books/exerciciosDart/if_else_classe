@@ -1,0 +1,25 @@
+void main(){
+  People pLeo = People('01','Leornardo', true);
+  People pBiel = People('02','Grabriel', true);
+  
+  
+  print(pLeo.name);
+  print(pBiel.name);
+  print(pLeo.toString());
+
+}
+
+
+class People{
+  final String? id;
+  final String? name;
+  final bool isPopular;
+  
+  
+People(this.id, this.name, this.isPopular);
+  
+  String toString(){
+    return "\n id: $id,\n name: $name,\n Popular: $isPopular";
+  }
+    
+}
