@@ -1,0 +1,31 @@
+class Pessoa{
+  
+  final String nome;
+  
+  Pessoa(this.nome);
+  
+}
+
+class Cliente extends Pessoa{
+  
+  final String email;
+  Cliente(String nome, this.email) : super(nome);
+}
+
+class ClienteVip extends Cliente{
+  final String idcard;
+  ClienteVip(String nome, String email, this.idcard) : super(nome, email);
+}
+
+void main(){
+
+  final cliente = Cliente("C", "email@email.com");
+  final clienteVip = ClienteVip("CV", "email@email.com", "000000000");
+  
+  print(" ${cliente.nome} \n ${cliente.email}\n");
+  print(" ${clienteVip.nome} \n ${clienteVip.email} \n ${clienteVip.idcard} \n");
+  
+
+  
+}
+
