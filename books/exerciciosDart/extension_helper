@@ -1,0 +1,9 @@
+extension HelperString on String {
+  int get totalString => length;
+}
+
+void main(){
+int helperString = "1234567".totalString;
+  
+  print(helperString);
+}
