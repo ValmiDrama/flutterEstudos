@@ -1,0 +1,15 @@
+import 'dart:math';
+
+extension HelperString on String {
+  int get totalString => length;
+}
+
+void main(){
+int helperString = "1234567".totalString;
+  
+  print(helperString);
+  
+  int nrandom=Random().nextInt(1000)+220000;
+  
+  print(nrandom);
+}
