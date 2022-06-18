@@ -7,7 +7,7 @@ class HomeTeste extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text("Funcional 2"),
+        child: Text("Funcional 3"),
       ),
     );
   }

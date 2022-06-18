@@ -11,13 +11,19 @@ class CustomFirebaseMessaging {
       CustomFirebaseMessaging._internal(CustomLocalNotification());
   factory CustomFirebaseMessaging() => _singleton;
 
-  Future<void> inicialize() async {
+  Future<void> inicialize({VoidCallback? callback}) async {
     await FirebaseMessaging.instance
-        .setForegroundNotificationPresentationOptions(badge: true, sound: true);
+        .setForegroundNotificationPresentationOptions(
+      badge: true,
+      sound: true,
+      alert: true,
+    );
 
     FirebaseMessaging.onMessage.listen((message) {
       RemoteNotification? notification = message.notification;
       AndroidNotification? android = message.notification?.android;
+
+      if (message.data['forceFatchRC'] != null) return callback?.call();
 
       if (notification != null && android != null) {
         _customLocalNotification.androidNotification(notification, android);
@@ -28,9 +34,14 @@ class CustomFirebaseMessaging {
       if (message.data['goTO'] != null) {
         navigatorKey.currentState?.pushNamed(message.data['goTO']);
       }
+      if (message.data['forceFatchRC'] != null) callback?.call();
     });
   }
 
-  getTokenFirebase() async =>
-      debugPrint(await FirebaseMessaging.instance.getToken());
+  getTokenFirebase() async {
+    final token = await FirebaseMessaging.instance.getToken();
+    debugPrint('########################################');
+    debugPrint('$token');
+    debugPrint('########################################');
+  }
 }

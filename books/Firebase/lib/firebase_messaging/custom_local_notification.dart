@@ -7,9 +7,9 @@ class CustomLocalNotification {
 
   CustomLocalNotification() {
     channel = const AndroidNotificationChannel(
-      'high_importance_chanel',
-      'High Importance Notification',
-      description: 'This chanel is used for important notifications.',
+      'high_importance_channel',
+      'High Importance Notifications',
+      description: 'This channel is used for important notifications.',
       importance: Importance.max,
     );
 
@@ -24,7 +24,7 @@ class CustomLocalNotification {
   Future<FlutterLocalNotificationsPlugin> _configuraAndroid() async {
     var flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
-    flutterLocalNotificationsPlugin
+    await flutterLocalNotificationsPlugin
         .resolvePlatformSpecificImplementation<
             AndroidFlutterLocalNotificationsPlugin>()
         ?.createNotificationChannel(channel);
