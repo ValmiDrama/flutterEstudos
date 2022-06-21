@@ -4,13 +4,18 @@ void main(){
   var statusUser = StatusUser();
   
   statusUser.status(TypeStatus.OFF);
+  print('\n');
   statusUser.status(TypeStatus.ON);
   
-  print("\n############### T E S T  2 - ENUMs #####################\n");
+  
+  
+  
+  print("\n############### T E S T  2 - ENUM-Vs2 #####################\n");
     
   var amamentandoStatus = StatusLeo();
   
   amamentandoStatus.status(AmamentandoStatus.lactante);
+    print('\n');
   amamentandoStatus.status(AmamentandoStatus.nLactante);
   
 }//FIM MAIN
@@ -18,11 +23,12 @@ void main(){
 //ENUMS
 
 enum TypeStatus{
-  ON('On'),
-  OFF('Off');
+  ON(0, 'On'),
+  OFF(1, 'Off');
   
   final String value;
-  const TypeStatus(this.value);
+  final int id;
+  const TypeStatus(this.id, this.value);
 }
 
 
@@ -40,11 +46,11 @@ class StatusUser{
   
   void status(TypeStatus typeStatus){
     
-    if(typeStatus.value == 'On'){
-      print('Usuario Online');
+    if(typeStatus.id == 0){
+      print('Usuario ${typeStatus.value} \n statuscode: ${typeStatus.id}');
     }
-    if(typeStatus.value == 'Off'){
-      print('Usuario Offline');
+    if(typeStatus.id == 1){
+      print('Usuario ${typeStatus.value} \n statuscode: ${typeStatus.id}');
     }
     
     
