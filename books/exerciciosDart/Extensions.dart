@@ -25,7 +25,7 @@ extension ExtensionsString on String{
    // return value[0].toUpperCase()+value.substring(1);
       return this[0].toUpperCase()+ this.substring(1);
     
-    //this entender que e a variavel passada a 'String'
+    //this entender que e a variavel passada a 'String', objeto que aplico a funcao toFirstChar
     
   }
 }
