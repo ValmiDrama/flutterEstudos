@@ -3,7 +3,7 @@ import 'dart:convert';
 
 void main(){
   
-  print("\n############### T E S T  1  #####################\n");
+  print("\n############### T E S T  1  DECODE #####################\n");
   
   String json = '''
   {
@@ -20,7 +20,7 @@ void main(){
   Map resultJsonE = jsonDecode(json);
   print(resultJsonE["usuario"]);
   
- print("\n ############### T E S T  2  #####################\n");
+ print("\n ############### T E S T  2 ENCODE #####################\n");
   
   Map mapas = {
     'usuario':'Hallan',
