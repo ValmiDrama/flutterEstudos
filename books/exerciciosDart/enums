@@ -1,0 +1,62 @@
+void main(){
+  
+  print("\n############### T E S T  1 - ENUMs #####################\n");
+  
+ var payment = Payment();
+  //Com String
+ // payment.pay('CARD');
+  
+  //com ENUM
+  //ESCOLHA O ENUM AQUI  .MONEY ou .CARD
+  payment.pay(TypePayment.CARD);
+  
+  
+  
+  
+  //FIM_MAIN
+}
+//ENUM ('INALTERAVEIS')
+enum TypePayment{
+  CARD, MONEY;
+}
+
+extension ExtensionTypePayment on TypePayment{
+  String toValue(){
+    Map map ={
+      TypePayment.CARD: 'CARD',
+      TypePayment.MONEY: 'MONEY',
+    };
+    return map[this];
+  }
+}
+
+//CLASSES
+
+class Payment{
+ // void pay(String typePayment){
+ // substitui String pela ENUM
+    void pay(TypePayment typePayment){
+      
+      
+    if(typePayment.toValue() == 'CARD'){
+      print('Using CARD.');
+    }
+    if(typePayment.toValue() == 'MONEY'){
+      print('Using MONEY.');
+    }   
+  }
+  
+  
+  print("\n############### T E S T  2 - ENUMs #####################\n");
+  
+  
+  
+ }
+
+
+
+
+
+
+
+
